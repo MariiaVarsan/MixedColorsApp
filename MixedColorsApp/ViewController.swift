@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         setValue(for: redLabel, greenLabel, blueLabel)
     }
 
-    @IBAction func rgbSlider(_ sender: UISlider) {
+    @IBAction func rgbSliders(_ sender: UISlider) {
         setColor()
         switch sender {
         case redSlider:
@@ -68,6 +68,5 @@ class ViewController: UIViewController {
     private func string(from slider: UISlider) -> String {
         String(format: "%.2f", slider.value)
     }
-    
 }
 
