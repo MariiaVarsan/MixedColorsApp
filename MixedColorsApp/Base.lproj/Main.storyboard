@@ -81,13 +81,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="ABa-GK-KAI">
                                         <rect key="frame" x="93" y="0.0" width="289" height="116"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hO9-oh-JEn">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.050000000745058101" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hO9-oh-JEn">
                                                 <rect key="frame" x="-2" y="0.0" width="293" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSliders:" destination="BYZ-38-t0r" eventType="valueChanged" id="UPh-Qi-PEW"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pGR-Tn-wNA">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.26600000262260398" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pGR-Tn-wNA">
                                                 <rect key="frame" x="-2" y="43" width="293" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSliders:" destination="BYZ-38-t0r" eventType="valueChanged" id="XO2-rA-MfU"/>
